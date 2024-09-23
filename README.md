@@ -8,12 +8,11 @@ This example covers basic CRUD operations by saving the data to a file.
 We create a project with the following structure:
 
 bash
-..crud_project/
-.....│
-.....├── main.py   # Main execution file
-.....├── menu.py   # File with menu
-.....├── crud_operations.py   # File with CRUD functions
-.....└── records.txt   # File to store the data
+    crud_project = {
+           main.py   # Main execution file, 
+           menu.py   # File with menu, 
+           crud_operations.py   # File with CRUD functions, 
+           records.txt   # File to store the data. }
 
 __________________________________________________________________________
 
